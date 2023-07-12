@@ -1,0 +1,15 @@
+
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ngta?useSSL=false&serverTimezone=UTC
+    username: root
+    password: Sametbegg1
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+    show-sql: true
