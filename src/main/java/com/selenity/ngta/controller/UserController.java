@@ -2,7 +2,6 @@ package com.selenity.ngta.controller;
 
 import com.selenity.ngta.entity.dataTransferObject.UserDTO;
 import com.selenity.ngta.service.IUserService;
-import jakarta.websocket.server.PathParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

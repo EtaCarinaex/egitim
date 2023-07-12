@@ -2,6 +2,8 @@
 server:
   port: 8082
 
+
+#Localde kurulacak veritabanı bilgileri eklenmelidir.
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ngta?useSSL=false&serverTimezone=UTC
